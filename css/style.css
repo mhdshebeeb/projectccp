@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clock-main{
+   color: whitesmoke;
+   text-align: center;
+   
+   
+
+}
+
+body{
+    background-image: url(../images/wallpaper.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgb(20, 73, 73);  
+
+    
+}
+
+
+
+h1{
+    margin-top: 10%;
+    font-size: 6vw;
+    font-family: 'Josefin Sans', sans-serif;    
+    text-shadow: 5px 5px 4px rgb(31, 21, 21);
+}
+
+#clock{
+    margin-top: 5%;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    font-size: 9vw;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.fade{
+    height:55vw;
+    background:linear-gradient(180deg,transparent,rgba(13, 48, 48, 0.5),rgb(20, 73, 73)) ;
+}
+
+.options{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    margin-bottom: 10%;
+    
+}
+
+.option{
+    position: relative;
+    width: 30%;
+    padding: 5% 0 5% 0;
+    margin-top: 20%;
+    margin-left: 2.5%;
+    flex: none;
+    background-color: rgb(162, 219, 223);
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 450ms;
+}
+.option:hover{
+    background-color: whitesmoke;
+    transform: scale(1.08)
+}
+.piano{
+    order: 1;
+    
+}
+
+.alarm{
+    order: 2;
+}
+
+.stopwatch{
+    order: 3;
+}
+img{
+    width: 28%;
+    
+}

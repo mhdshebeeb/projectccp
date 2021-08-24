@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="./styles.css"/>
+        <title>Alarm</title>
+	</head>
+<body>
+	<div class="">
+		<div class="head">
+			<h1 class="text-primary">Alarm Clock</h1>
+		</div>
+		<div>
+			<input type="datetime-local" id="alarmTime"/>
+			<button type="button" onclick="setAlarm(this);" id="alarmButton" class="btn btn-success"><span class="glyphicon glyphicon-time"></span> Set Alarm</button>
+		</div>
+		<br />
+		<div id="selectButton" style="display:none;">
+			<div>
+				<button onclick="snoozeAlarm();" class="btn btn-warning"><span class="glyphicon glyphicon-pause"></span> Snooze 5 minutes</button>
+				<button onclick="stopAlarm();" class="btn btn-danger"><span class="glyphicon glyphicon-stop"></span> Stop Alarm</button>
+			</div>
+		</div>
+	</div>
+ 
+<script src="script.js"></script>
+</body>
+</html>
