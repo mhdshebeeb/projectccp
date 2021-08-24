@@ -1,5 +1,5 @@
 var sound = new Audio();
-sound.src = 'alarm.mp3';
+sound.src = 'Alarm.mp3';
 var timer;
  
 function setAlarm(el){
